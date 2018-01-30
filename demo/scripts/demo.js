@@ -2,11 +2,6 @@
 
 angular.module('app')
 	.controller('DemoCtrl', function ($scope, $rootScope, $timeout) {
-		$scope.messages = [
-	    'Thank you for pressing the esc key!1',
-	    'Thank you for pressing the esc key!2',
-	    'Thank you for pressing the esc key!3'
-	  ];
 		$scope.message_index = 0;
 
 		var granimInstance = new Granim({
@@ -17,10 +12,10 @@ angular.module('app')
 		   states : {
 					"default-state": {
 						gradients: [
-							['#80D8FF', '#40C4FF'],
-							['#00B0FF', '#0091EA'],
-							['#0091EA', '#00B0FF'],
-							['#40C4FF', '#80D8FF']
+							['#D1C4E9', '#B39DDB'],
+							['#9575CD', '#7E57C2'],
+							['#7E57C2', '#9575CD'],
+							['#B39DDB', '#D1C4E9']
 						]
 					}
 		   }
