@@ -43,7 +43,8 @@
     "cssist": "*",
     "animejs": "^2.2.0",
     "granim": "^1.1.0",
-    "reset.css": "^1.0.2"
+    "reset.css": "^1.0.3",
+    "ng-esc": "ngEsc#*"
   },
   "resolutions": {
     "angular": "~1.5.8"

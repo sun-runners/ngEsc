@@ -1,19 +1,18 @@
 {
-  "name": "reset.css",
-  "version": "1.0.3",
-  "homepage": "https://github.com/KimSunWook/reset.css",
-  "main": "reset.css",
+  "name": "ng-esc",
+  "homepage": "https://github.com/KimSunWook/ngEsc",
+  "main": "ngEsc.js",
   "authors": [
     "Kim Sun Wook <sunus7@naver.com>"
   ],
-  "description": "Reset.css unifies the styles of different html tags for different browsers.",
+  "description": "Trigger an expression when the esc key is pressed.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:KimSunWook/reset.css.git"
+    "url": "git@github.com:KimSunWook/ngEsc.git"
   },
   "keywords": [
-    "reset.css",
-    "resetcss"
+    "ngEsc",
+    "ng-esc"
   ],
   "ignore": [
     "**",
@@ -23,7 +22,9 @@
     "CNAME"
   ],
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "angular": ">=1.2.0"
+  },
   "devDependencies": {
     "angular": "~1.5.8",
     "angular-animate": "~1.5.8",
@@ -40,19 +41,20 @@
     "ng-lodash": "^0.5.0",
     "cssist": "*",
     "animejs": "^2.2.0",
-    "granim": "^1.1.0"
+    "granim": "^1.1.0",
+    "reset.css": "^1.0.2"
   },
   "resolutions": {
     "angular": "~1.5.8"
   },
-  "_release": "1.0.3",
+  "_release": "44a1c22eb0",
   "_resolution": {
-    "type": "version",
-    "tag": "v1.0.3",
-    "commit": "8951d98cda9c7d95e5fa8207b3cdeb1ed68dbe5a"
+    "type": "branch",
+    "branch": "master",
+    "commit": "44a1c22eb023afc133d46f926464c48b8b733dc5"
   },
-  "_source": "https://github.com/KimSunWook/reset.css.git",
-  "_target": "^1.0.3",
-  "_originalSource": "reset.css",
+  "_source": "https://github.com/KimSunWook/ngEsc.git",
+  "_target": "*",
+  "_originalSource": "ngEsc",
   "_direct": true
 }
