@@ -9,11 +9,35 @@ DEMO
 -------
 https://kimsunwook.github.io/ngEsc
 
+<br/>
+
 INSTALL
 -------
 
 ```
 bower install ng-esc --save
+```
+
+<br/>
+
+Quick start
+-------
+Copy-paste the stylesheet <script> into your <body>.
+
+```
+<script src=".bower_components/ngEsc/ngEsc.js"></script>
+```
+or
+```
+<script src=".bower_components/ngEsc/ngEsc.min.js"></script>
+```
+or
+```
+<script src="https://raw.githubusercontent.com/KimSunWook/ngEsc/master/ngEsc.js"></script>
+```
+or
+```
+<script src="https://raw.githubusercontent.com/KimSunWook/ngEsc/master/ngEsc.min.js"></script>
 ```
 
 <br/>
