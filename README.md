@@ -1,7 +1,7 @@
 ngEsc
 =======
 
-Trigger an expression when the esc key is pressed.
+ngEsc is an angularjs library that triggers an expression when the esc key is pressed.
 
 <br/>
 
