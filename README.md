@@ -25,11 +25,11 @@ Quick start
 Copy-paste the stylesheet <script> into your <body>.
 
 ```
-<script src=".bower_components/ngEsc/ngEsc.js"></script>
+<script src=".bower_components/ng-esc/ngEsc.js"></script>
 ```
 or
 ```
-<script src=".bower_components/ngEsc/ngEsc.min.js"></script>
+<script src=".bower_components/ng-esc/ngEsc.min.js"></script>
 ```
 or
 ```
