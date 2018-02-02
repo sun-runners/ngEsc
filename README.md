@@ -33,11 +33,11 @@ or
 ```
 or
 ```
-<script src="https://raw.githubusercontent.com/KimSunWook/ngEsc/master/ngEsc.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngEsc/v1.0.2/ngEsc.js"></script>
 ```
 or
 ```
-<script src="https://raw.githubusercontent.com/KimSunWook/ngEsc/master/ngEsc.min.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngEsc/v1.0.2/ngEsc.min.js"></script>
 ```
 
 <br/>
