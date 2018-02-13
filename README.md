@@ -24,6 +24,9 @@ Quick start
 -------
 Copy-paste the ```<script>``` into your ```<body>```.
 
+<br/>
+
+ngEsc.js
 ```
 <script src=".bower_components/ng-esc/ngEsc.js"></script>
 ```
