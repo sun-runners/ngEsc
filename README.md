@@ -65,7 +65,7 @@ angular.module('myApp', [
   ng-esc-duration="1000" // The value of $ esc lasts true and the default value is 100 (ms).
   ng-class="[
     {'esc_classes':model.$esc}, // The value of $esc becomes true on click and turns false after duration (ms).
-    {'esc_classes':model.$esced} // The value of $esced is true when clicked and does not change.
+    {'esced_classes':model.$esced} // The value of $esced is true when clicked and does not change.
   ]">
 ```
 
