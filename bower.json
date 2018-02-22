@@ -2,7 +2,7 @@
   "name": "ng-esc",
   "version": "1.0.2",
   "homepage": "https://github.com/KimSunWook/ngEsc",
-  "main": "ngEsc.js",
+  "main": ["ngEsc.js", "ngEsc.min.js"],
   "authors": [
     "Kim Sun Wook <sunus7@naver.com>"
   ],
