@@ -45,8 +45,5 @@
     "granim": "^1.1.0",
     "reset.css": "^1.0.3",
     "ng-esc": "ngEsc#*"
-  },
-  "resolutions": {
-    "angular": "~1.5.8"
   }
 }
