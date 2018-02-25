@@ -56,5 +56,5 @@
 			scope:false,
 			restrict:"EA"
 		};
-	});
-}])(angular);
+  }]);
+})(angular);

@@ -33,15 +33,7 @@ Copy-paste the ```<script>``` into your ```<body>```.
 ```
 or
 ```
-<script src=".bower_components/ng-esc/ngEsc.min.js"></script>
-```
-or
-```
-<script src="https://cdn.rawgit.com/KimSunWook/ngEsc/v1.1.2/ngEsc.js"></script>
-```
-or
-```
-<script src="https://cdn.rawgit.com/KimSunWook/ngEsc/v1.1.2/ngEsc.min.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngEsc/v1.1.3/ngEsc.js"></script>
 ```
 
 <br/>
