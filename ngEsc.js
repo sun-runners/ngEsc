@@ -1,6 +1,6 @@
 (function(angular) {
   angular.module('ngEsc', ['ng'])
-  .directive("ngEsc", function ($rootScope, $timeout) {
+  .directive("ngEsc", ['$rootScope', '$timeout', function ($rootScope, $timeout) {
 		return {
       link: function (scope, element, attrs) {
 
@@ -43,9 +43,10 @@
 
                // Set $esc false after duration
                var duration = Number(attrs.ngEscDuration);
-               if(!(duration>=0)) duration = 100;
+               if(!(duration>=0)) duration = 700;
                timeout_esc = $timeout(function(){
                  model.$esc = false;
+                 scope.$eval(attrs.ngEscAfter);
                }, duration);
              }
              event.preventDefault();
@@ -56,4 +57,4 @@
 			restrict:"EA"
 		};
 	});
-})(angular);
+}])(angular);

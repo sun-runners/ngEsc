@@ -37,11 +37,11 @@ or
 ```
 or
 ```
-<script src="https://cdn.rawgit.com/KimSunWook/ngEsc/v1.1.0/ngEsc.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngEsc/v1.1.2/ngEsc.js"></script>
 ```
 or
 ```
-<script src="https://cdn.rawgit.com/KimSunWook/ngEsc/v1.1.0/ngEsc.min.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngEsc/v1.1.2/ngEsc.min.js"></script>
 ```
 
 <br/>
@@ -60,12 +60,26 @@ angular.module('myApp', [
 
 ```
 <input
-  ng-esc="message = 'esc pressed'" // Invoked when you press the Esc key
-  ng-esc-model="model" // If you do not put object, $esc and $esced values ​​are stored in scope.
-  ng-esc-duration="1000" // The value of $ esc lasts true and the default value is 100 (ms).
+  <!-- Invoked when you press the ESC key -->
+  ng-esc="message = 'ESC is pressed.'"
+
+  <!-- Called after duration (ms) after pressing the ESC key. -->
+  ng-esc-after="message = 'ESC was pressed 1 second ago.'"
+
+  <!-- If you do not put object, $esc and $esced values ​​are stored in scope. -->
+  ng-esc-model="model"
+
+  <!-- The value of $esc lasts true and the default value is 700 (ms). -->
+  ng-esc-duration="1000"
+
   ng-class="[
-    {'esc_classes':model.$esc}, // The value of $esc becomes true on click and turns false after duration (ms).
-    {'esced_classes':model.$esced} // The value of $esced is true when clicked and does not change.
+
+    <!-- The value of $esc becomes true on click and turns false after duration (ms). -->
+    {'esc_classes':model.$esc},
+
+    <!-- The value of $esced is true when clicked and does not change. -->
+    {'esced_classes':model.$esced}
+
   ]">
 ```
 
